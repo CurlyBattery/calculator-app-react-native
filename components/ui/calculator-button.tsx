@@ -7,7 +7,7 @@ export default function CalculatorButton({label, onPress}) {
     return (
         <TouchableOpacity style={styles.button} onPress={() => onPress(label)}>
             {isIcon ? (
-                <Feather name="delete" size={24} color="black" />
+                <Feather name="delete" size={24} color="white" />
             )
                 : (
                     <Text style={styles.text}>{label}</Text>

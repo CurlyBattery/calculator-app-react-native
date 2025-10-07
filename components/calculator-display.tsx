@@ -44,8 +44,8 @@ export function CalculatorDisplay() {
                 </ThemedView>
 
                 <ThemedView style={styles.row}>
-                    <CalculatorButton label={"="} onPress={handlePress}/>
                     <CalculatorButton label={"DEL"} onPress={handlePress}/>
+                    <CalculatorButton label={"="} onPress={handlePress}/>
                 </ThemedView>
             </ThemedView>
         </ThemedView>
@@ -70,8 +70,8 @@ const styles = StyleSheet.create({
     },
     displayText: {
         color: '#fff',
-        fontSize: 50,
-        marginBottom: 40,
+        fontSize: 40,
+        paddingVertical: 20,
     },
     grid: {
         padding: 10,
